@@ -1,0 +1,99 @@
+*{
+    margin:6;
+    box-sizing: border-box;
+}
+
+.p{
+    color: black;
+    font-weight: bold;
+}
+#h-first{
+    background-color:#3D8361 ;
+    width: 100%;
+    height:20vh;
+}
+
+.judul-h{
+    color: white;
+    
+    font-family: 'Open Sans', sans-serif;
+    /* mengubah ukuran font size */
+    font-weight: 1000;
+    /* mengubah posisi huruf ke tengah */
+    text-align: center;
+}
+
+nav{
+    padding: 2em 0 0 0;
+}
+.link{
+    /* mengubah warna teks */
+    color:white;
+    /* mengubah teks tag a */
+    text-decoration: none;
+    /* mengubah font family huruf */
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 65em;
+}
+
+.card{
+    /* mengatur warna background color */
+    background-color:#d6cda44b;
+    /* mengatur lebar */
+    width:40vw;
+    /* mengatur tinggi */
+    height:50vh;
+    /* mengatur posisi atas bawah kiri kanan */
+    margin:3em auto 0 auto;
+}
+
+#article-card{
+    display: flexbox ;
+    
+}
+
+.parent-card-1{
+    display: flex;
+    /* mengatur lebar */
+    margin: 1em 0 10em 0;
+}
+
+.parent-card-2{
+    display: flex;
+    margin: 1em 0 7em 0 ;
+    
+}
+
+.img-container {
+    /*mengatur lebar  */
+    width: 40vw;
+    /* mengatur lebar */
+    height:50vh;
+}
+
+.footer{
+    /* mengatur lebar */
+    width: auto 100vh;
+    /* mengatur tinggi */
+    height: 40vh;
+    /* Mengubah warna background color */
+    background-color: #b1df27;
+    /* mengatur posisi atas bawah kiri karan */
+    margin: 26em 0 0 0;
+}
+
+.pemilik{
+    /* ganti warna huruf */
+    color:rgb(10, 59, 73);
+    /* ganti font family huruf */
+    font-family: 'Open Sans', sans-serif; ;
+    /* Membuat teks ketengah */
+    text-align: center ;
+    /* Mengubah ukuran size huruf */
+    font-size: 1em;
+}
+
+.img-container-wa{
+    width:5%;
+}
